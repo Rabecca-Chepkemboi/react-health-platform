@@ -1,0 +1,22 @@
+.testimonials{
+    display: flex;
+    font-size: 1.2em;
+    margin-top: 6em;
+    padding-left: 2em;
+  }
+  .testinomy-img{
+    border-radius: 1em;
+    gap: 93em;
+  }
+  .patient-testimony{
+    text-align: left;
+    padding-left: 2em;
+  }
+  .patients-name{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .recover{
+    font-weight: bold;
+    font-size: 1.3em;
+  }

@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+  }
+  @keyframes smoothScrollAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+  
+  /* ........................home style...................... */
+  
+  nav {
+    background-color: #96c9f2;
+      text-align: center;
+      position: fixed;
+      top: 1px; 
+      left: 0;
+      width: 100%;
+      background-color: #66d9e8;
+      color: black;
+      padding: 50px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+    .navigation{
+      background-color: #96f2d7;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      justify-content: flex-start;
+      align-items: center;
+      height: 0px;
+    }
+    nav ul li {
+      margin-right: 50px;
+      display: inline;
+    }
+    nav ul li a {
+      color: #0a0a0a;
+      text-decoration: none;
+      padding: 10px;
+    }
+  .btn2{
+    padding: 10px 20px;
+    background-color: #f6f9fa;
+    font-size: 0.8em;
+    border-radius: 1em;
+    cursor: pointer;
+  }
+  .btn2:hover{
+    background-color: #50e0f3;
+  }
+  
+  
+  .detail1{
+    margin-top: 8em;
+  }
+  .detail2{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .doc1{
+    margin-top: 4em;
+    padding-left: 7em;
+  }
+  .detail3{
+    text-align: left;
+    font-size: 2.5em;
+    margin-top: 3em;
+    padding-left: 2em;
+  }
+  .btn1{
+    padding: 22px 66px;
+    font-size: 1.3em;
+    background-color: rgb(133, 195, 252);
+    cursor: pointer;
+    border: rgb(133, 195, 252);
+    border-radius: 1em;
+  }
+  .btn1:hover{
+    background-color: #92def5;
+  }
+  .button{
+    padding-left: 13em;
+  }
+  
+  
+  .content{
+    margin-top: 5em;
+    background-color: rgb(133, 195, 252);
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    font-size: 2em;
+    text-align: center;
+  }

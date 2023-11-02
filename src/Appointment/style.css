@@ -1,0 +1,63 @@
+.forms {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  
+  .doctors-sheet,
+  .patients-sheet {
+    margin-bottom: 20px;
+    border: solid 2px grey;
+    padding-left: 5em;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    padding-right: 2em;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="datetime-local"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #66d9e8;
+    color: rgb(5, 5, 5);
+    border: #66d9e8;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #81e5f5;
+  }
+  h3{text-align: center;
+    margin-top: 2em;
+  }
+  p{
+    padding-left: 2em;
+    margin-top: 3em;
+  }

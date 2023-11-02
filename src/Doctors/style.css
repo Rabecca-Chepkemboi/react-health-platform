@@ -1,0 +1,46 @@
+.docsection1{
+    display: flex;
+    margin-top: 6em;
+    padding-left: 3em;
+    font-size: 1.2em;
+    gap: 3em;
+  }
+  .img{
+    width: 10%;
+    height: 8em;
+    border-radius: 5em;
+    background-color: rgb(48, 47, 47);
+  }
+  .image{
+    border: solid 1px grey;
+    text-align: left;
+    border-radius: 5px;
+    width: 25em;
+    height: 15em;
+    text-align: center;
+  }
+  .btn-appointment{
+    padding: 8px 20px;
+    font-size: 0.7em;
+    background-color: #66d9e8;
+    cursor: pointer;
+    border: #96f2d7;
+    color: white;
+    font-weight: bold;
+    border-radius: 1em;
+  }
+  .btn-appointment:hover{
+    background-color: #41d8ec;
+  }
+  .appoint{
+    padding-left: 1em;
+  }
+  .title{
+    margin-left: 72px;
+    background-color: #c9f1f7;
+    font-size: 1.3em;
+  }
+  .doc-name{
+    font-size: 1.3em;
+    font-weight: bold;
+  }

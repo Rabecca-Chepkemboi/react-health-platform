@@ -1,0 +1,37 @@
+.recommended{
+    display: grid;
+    /* text-align: left; */
+    grid-template-columns: repeat(3, 3fr);
+    gap: 4em;
+    padding-left: 2em;
+    border: solid 2px #d4e8eb;
+    border-radius: 5px;
+    height: 54em;
+    background-color: rgb(252, 232, 235);
+  }
+
+  .img-recomend1{
+    width: 50%;
+  }
+  .img-recomend2{
+    width: 50%;
+  }
+  .img-recomend3{
+    width: 35%;
+    height: 13em;
+  }
+  .img-recomend4{
+    width: 30%;
+    height: 13.5em;
+  }
+  .img-recomend5{
+    width: 35%;
+  }
+  .img-recomend6  {
+    width: 35%;
+    height: 13.5em;
+  }
+  .diet{
+    font-weight: bold;
+    font-size: 1em;
+  }

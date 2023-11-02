@@ -1,0 +1,15 @@
+.payment{
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(2, 2fr);
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-left: 6em;
+    gap: 3em;
+    color: #5c5a5a;
+  }
+  .icon{
+    color: #0a99ac;
+    font-size: 1.4em;
+  }

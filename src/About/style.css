@@ -1,0 +1,55 @@
+.about1{
+    text-align: left;
+    padding-left: 2em;
+    margin-top: 4em;
+    font-size: 3.2em;
+  }
+  .about2{
+    text-align: left;
+    padding-left: 3.5em;
+    margin-top: 4em;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .about{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .doc9{
+    padding-left: 25em;
+    margin-top: 8em;
+    width: 50%;
+  }
+  .mision{
+    margin-top: 2em;
+    font-size: 1.2em;
+    border: solid 1px grey;
+    width: 36em;
+    height: 12em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .mision:hover{
+    background-color: #9eebf5;
+  }
+  .vision{
+    margin-top: 2em;
+    font-size: 1.2em;
+    border: solid 1px grey;
+    width: 36em;
+    height: 12em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .vision:hover{
+    background-color: #9eebf5;
+  }
+  .mision-vision{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding-left: 10em;
+    margin-top: 4em;
+  }
+  h2{
+    padding-left: 2em;
+  }
