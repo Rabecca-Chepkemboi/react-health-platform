@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     margin-top: 6em;
-    padding-left: 5em;
+    padding-left: 2em;
   }
   .service2{
     text-align: center;
@@ -25,7 +25,7 @@
     border: solid 2px grey;
     font-size: 1.2em;
     height: 22em;
-    width: 22em;
+    width: 25em;
     border-radius: 5px;
     text-align: center;
   }

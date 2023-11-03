@@ -1,15 +1,14 @@
 .recommended{
     display: grid;
-    /* text-align: left; */
     grid-template-columns: repeat(3, 3fr);
     gap: 4em;
+    margin-top: 4em;
     padding-left: 2em;
     border: solid 2px #d4e8eb;
     border-radius: 5px;
     height: 54em;
-    background-color: rgb(252, 232, 235);
+    background-color: #fce8eb;
   }
-
   .img-recomend1{
     width: 50%;
   }

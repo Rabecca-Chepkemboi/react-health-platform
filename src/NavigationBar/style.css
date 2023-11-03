@@ -61,10 +61,14 @@ html {
   
   
   .detail1{
-    margin-top: 8em;
+    margin-bottom: 8em;
+    background-color: #fce8eb;
+    width: 1110px;
+    height: 97vh;
   }
   .detail2{
     display: grid;
+    margin-top: 2em;
     grid-template-columns: repeat(2, 2fr);
   }
   .doc1{
@@ -73,13 +77,15 @@ html {
   }
   .detail3{
     text-align: left;
+    line-height: 1.5em;
     font-size: 2.5em;
-    margin-top: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:7em;
     padding-left: 2em;
   }
   .btn1{
-    padding: 22px 66px;
-    font-size: 1.3em;
+    padding: 30px 76px;
+    font-size: 1.5em;
     background-color: rgb(133, 195, 252);
     cursor: pointer;
     border: rgb(133, 195, 252);
@@ -89,12 +95,11 @@ html {
     background-color: #92def5;
   }
   .button{
-    padding-left: 13em;
+    padding-left: 2em;
   }
   
   
   .content{
-    margin-top: 5em;
     background-color: rgb(133, 195, 252);
     display: grid;
     grid-template-columns: repeat(5, 5fr);

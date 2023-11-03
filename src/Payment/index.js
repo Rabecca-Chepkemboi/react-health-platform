@@ -9,6 +9,8 @@ const Payment = () => {
     return (
       <>
         <h1>Payment section</h1>
+        <hr></hr>
+
         <section className="payment">
           <div>
             <FontAwesomeIcon icon={faCircle} className="icon" />

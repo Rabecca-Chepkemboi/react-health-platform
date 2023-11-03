@@ -7,16 +7,17 @@ const About = () => {
     return(
         <section id="about us">
 <h1>About us</h1>
+<hr></hr>
 
-<section class="about">
+<section className="about">
     <div>
-<p class="about1">
+<p className="about1">
 We give you a new journey of life with
 <br/>
 Our expectational checkup
 </p>
 
-<p class="about2">
+<p className="about2">
     Our health website is a trusted source of reliable and accurate health information for individuals
      and families. We understand that health is a complex and personal matter, which is why we are dedicated 
      to providing comprehensive information that is tailored to your unique needs. Our team of experienced 
@@ -28,8 +29,8 @@ Our expectational checkup
 <img src={process.env.PUBLIC_URL + '/images/doc9.jpg'} alt="My Image" className="doc9" />
 </section>
 
-   <section class="mision-vision">
-<div class="mision">
+   <section className="mision-vision">
+<div className="mision">
     <h2>Our Mission</h2>
     Our mission is to improve the lives of individuals and communities by providing
     accessible, high-quality healthcare information and resources. We do this by 
@@ -40,7 +41,7 @@ Our expectational checkup
 </div>   
 
 
-<div class="vision">
+<div className="vision">
     <h2>Our Vision</h2 >
     We envision a future where everyone has the education and resources they need to
     prioritize their health and well-being. We strive to be a trusted source of 
