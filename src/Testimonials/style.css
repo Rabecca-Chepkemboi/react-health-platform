@@ -1,16 +1,18 @@
 .testimonials{
     display: flex;
     font-size: 1.2em;
-    margin-top: 6em;
-    padding-left: 2em;
+    padding-left: 4em;
+    gap: 6em;
   }
   .testinomy-img{
     border-radius: 1em;
-    gap: 93em;
+    margin-top: 10em;
+    height: 20vh;
   }
   .patient-testimony{
     text-align: left;
-    padding-left: 2em;
+    padding-right: 10em;
+    margin-top: 4em;
   }
   .patients-name{
     font-size: 1.5em;

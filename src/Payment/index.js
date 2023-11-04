@@ -7,7 +7,7 @@ import { faCircle, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Payment = () => {
     return (
-      <>
+      <div className="background-image">
         <h1>Payment section</h1>
         <hr></hr>
 
@@ -34,7 +34,7 @@ const Payment = () => {
             <span>Add another method</span>
           </div>
         </section>
-      </>
+      </div>
     );
   }
   

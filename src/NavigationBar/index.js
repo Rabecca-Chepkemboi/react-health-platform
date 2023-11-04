@@ -7,13 +7,12 @@ const NavigationBar = () =>{
         <>
         <nav>
         <ul>
+            <li><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="My Image" className="logo" /></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#about us">About us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#doctors">Doctors</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><button class="btn2">Login</button></li>
-            <li><button class="btn2">Sign Up</button></li>
         </ul>
     </nav>
         <section id="home">
